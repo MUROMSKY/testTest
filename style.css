@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+  
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    height: 1580px;
+    background-image: url(img/top1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+}
+
+.top__box {
+    padding-top: 217px;
+}
+
+.top__title {
+    width: 690px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.top__text {
+    padding-bottom: 57px;
+    padding-top: 32px;
+    width: 481px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.top__button {
+    width: 234px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #9C0332;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.header__button:hover {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+.button__text {
+    width: 86px;
+    height: 22px;
+    padding-left: 74px;
+}
+
+.product {
+    height: 556px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/top2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product__box {
+    display: flex;
+    gap: 32px;
+}
+
+.item__1 {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 379px;
+    background-image: url(img/igra1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.item__2 {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 379px;
+    background-image: url(img/igra2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.item__3 {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 379px;
+    background-image: url(img/igra3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 17px;
+}
+
+.item__text {
+    padding-bottom: 32px;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
